@@ -134,6 +134,7 @@ p {
     flex-basis: 25%;
     padding: 10px;
     margin-bottom: 0px;
+    transition:  0.5s;
     
     
 }
@@ -191,6 +192,85 @@ h4 {
 .col-5 .fa {
     color:#ff523b ;    
 }
+.col-4:hover {
+    transform: translateY(-15px);
+}
+
+.exclusive {
+    background: radial-gradient(#fff, #8bddf2);
+   
+    
+}
+
+.col-6 {
+    min-width: 300px;
+    flex-basis: 50%;
+    padding: 20px 0;
+    text-align: left;
+}
+.col-6 img {
+    width: 100%;
+    
+}
+
+.col-6 p {
+    color: #555;
+    margin-bottom: 30px;
+    font-weight: 500px;
+    line-height: 25px;
+   
+}
+.col-6 h1 {
+    font-size: 50px;
+    font-weight:900;
+    margin-bottom: 20px;
+   
+}
+.col-6 a {
+    text-decoration: none;
+}
+
+.btn2 {
+    background:#ff523b;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 50px;
+    margin-top: 10px;
+    color: #fff;
+    transition: 0.5s;
+    
+}
+.btn2:hover {
+    background:#fff;
+    color: #ff523b;
+    border: 1px solid #ff523b; ;
+}
+
+
+.col-6 .offer-img {
+    padding: 50px;
+}
+.testimonial {
+    padding-top: 100px;
+}
+
+.testimonial .col-4 {
+   text-align: center;
+   padding: 40px 20px;
+   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+   cursor: pointer;
+}
+
+.testimonial .col-4 img {
+    width: 50px;
+    border-radius: 50px;
+    margin-top: 20px;
+    
+}
+.fa.fa-quote-left {
+    font-size: 34px;
+}
+
 
 
 
