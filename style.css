@@ -7,31 +7,31 @@
 
 nav {
     
-    display: flex;
-    padding: 2% 6%;
-    justify-content: space-between;
-    align-items: center;
+    flex: 1;
+    text-align: right;
    
 }
 
-nav img {
-    width: 150px;
-    
+.nav-bar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
 }
 
-.nav-links {
-    display: 1;
-    text-align: right;
-}
 
-.nav-links ul li {
+
+nav ul  {
+    display: inline-block;
+    list-style-type: none;
+
+}
+nav ul li  {
     display: inline-block;
     margin-right: 20px;
-
+   
 }
-.nav-links ul li a {
+a {
     text-decoration: none;
-    
     color: #555;
 }
 
@@ -96,8 +96,9 @@ p {
     text-decoration: none;
 }
 
-.headerr {
+.header {
     background: radial-gradient(#fff, #8bddf2);
+
 }
 
 .head-product {
@@ -252,6 +253,7 @@ h4 {
 }
 .testimonial {
     padding-top: 100px;
+    
 }
 
 .testimonial .col-4 {
@@ -270,6 +272,87 @@ h4 {
 .fa.fa-quote-left {
     font-size: 34px;
 }
+
+.col-5 .logo-img {
+    max-width: 200px;
+    padding: 5px;
+    filter: grayscale(100%);
+    transition: 0.5s;
+    
+}
+
+.logo-img:hover {
+    filter: none;
+}
+.logo .col-5 {
+    flex-basis: 20%;
+    cursor: pointer;
+    margin: 100px auto;
+}
+
+.footer {
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 20px 0 20px;
+}
+
+.footer p {
+    color: #8a8a8a;
+}
+.footer h3 {
+    color: #fff;
+    margin-bottom: 20px ;
+}
+
+.footer-col-1 , .footer-col-2 , .footer-col-3 , .footer-col-4 {
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+
+.footer-col-1 {
+    flex-basis: 30%;
+
+}
+.footer-col-2 {
+    flex: 1;
+    text-align: center;
+}
+
+.footer-col-2 img {
+    width: 180px;
+    margin-bottom: 20px;
+}
+
+.footer-col-3, .footer-col-4 {
+    flex-basis: 12%;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+.app-logo {
+    margin-top: 20px;
+}
+
+.app-logo img {
+    width: 140px;
+}
+
+.footer .container {
+    margin-top: 0px;
+}
+.footer hr {
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+.copyright {
+    text-align: center;
+}
+
 
 
 
