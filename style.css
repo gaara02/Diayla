@@ -413,17 +413,112 @@ ul {
 
 .row-7 {
     justify-content: space-between;
-    margin-top: 100px;
+    margin-top: 100px auto 50px;
 }
 
-.row-7 select {
-    border: #ff523b solid;
+select {
+    border:1px #ff523b solid;
+    padding: 5px;
 }
-select option {
-    padding: 100px;
+select:focus {
+    outline: none;
+}
+.page-btn {
+    margin: 0 auto 80px;
+    padding: 10px;
+
+}
+.page-btn span {
+    display: inline-block;
+    text-align: center;
+    border: 1px #ff523b solid;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    line-height: 40px;
+      
+}
+
+.page-btn span:hover {
+    background:#ff523b ; 
+    color: white;
+}
+
+.prod-details {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.row-9 {
+    flex-basis: 47%;
+}
 
 
+
+
+.row-9 img {
+    width: 100%;
+    
+    
 }
+.row-9 h1 {
+    margin-bottom: 10px;
+}
+
+.row-9 h1 {
+    font-size: 50px;
+    line-height: 60px;
+}
+
+.row-9 h4 {
+    color: #000;
+    margin-bottom: 15px;
+}
+
+.quantity-prod {
+    margin-bottom: 20px;
+}
+
+
+
+
+.quantity-prod input {
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+    border: 1px #ff523b solid;
+}
+
+input:focus {
+    outline: none;
+}
+
+.quantity-prod .btn-card {
+    border-radius: 30px;
+    margin-left: 10px;
+    font-size: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+span img {
+    max-width: 100px;
+}
+.row-9 .p1 {
+    color: #8a8a8a;
+    margin-top: 40px;
+}
+.prod-details .img-row {
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+
+
 
 
 
